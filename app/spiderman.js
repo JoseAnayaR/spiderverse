@@ -6,5 +6,8 @@ class spiderman {
         this.numberOfMovies = numberOfMovies
         this.studio = studio
     }
+    getInfo(){
+        return `Hey, I'm ${this.actor} from ${this.studio} studio`
+    }
 }
 module.exports = spiderman
